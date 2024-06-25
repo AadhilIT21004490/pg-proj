@@ -6,6 +6,7 @@ import Workflow from './components/Workflow'
 import Pricing from './components/Pricing'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   const [count, setCount] = useState(0)
